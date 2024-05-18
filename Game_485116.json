@@ -86,7 +86,7 @@
           "NW_SE_Score": 0,
           "N_S_Score": 0,
           "NE_SW_SCore": 0,
-          "AllVectorScore": 10
+          "AllVectorScore": 0
         },
         {
           "Face": 9,
@@ -1191,8 +1191,8 @@
         {
           "Face": 7,
           "Suit": 2,
-          "Status": 0,
-          "TokenColor": 3,
+          "Status": 1,
+          "TokenColor": 0,
           "Row": 6,
           "Col": 9,
           "IsCorner": false,
@@ -2265,18 +2265,6 @@
         "BoardPosition": 0,
         "TokenColor": 3,
         "IsAnchor": false
-      },
-      {
-        "Face": 9,
-        "Suit": 1,
-        "BoardRow": 0,
-        "BoardCol": 0,
-        "IsSequence": false,
-        "SequenceScore": 0,
-        "AllVectorScore": 0,
-        "BoardPosition": 0,
-        "TokenColor": 3,
-        "IsAnchor": false
       }
     ],
     "Discard_Cards": [
@@ -2975,23 +2963,23 @@
         "BoardPosition": 1,
         "TokenColor": 3,
         "IsAnchor": false
+      },
+      {
+        "Face": 9,
+        "Suit": 1,
+        "BoardRow": 8,
+        "BoardCol": 1,
+        "IsSequence": false,
+        "SequenceScore": 16,
+        "AllVectorScore": 0,
+        "BoardPosition": 1,
+        "TokenColor": 3,
+        "IsAnchor": false
       }
     ]
   },
   "Player1": {
     "Hand": [
-      {
-        "Face": 7,
-        "Suit": 2,
-        "BoardRow": 6,
-        "BoardCol": 9,
-        "IsSequence": false,
-        "SequenceScore": 37,
-        "AllVectorScore": 0,
-        "BoardPosition": 1,
-        "TokenColor": 3,
-        "IsAnchor": false
-      },
       {
         "Face": 5,
         "Suit": 1,
@@ -3063,27 +3051,39 @@
         "BoardPosition": 1,
         "TokenColor": 3,
         "IsAnchor": false
+      },
+      {
+        "Face": 9,
+        "Suit": 1,
+        "BoardRow": 8,
+        "BoardCol": 1,
+        "IsSequence": false,
+        "SequenceScore": 16,
+        "AllVectorScore": 0,
+        "BoardPosition": 1,
+        "TokenColor": 3,
+        "IsAnchor": false
       }
     ],
     "BestCard": {
-      "Face": 7,
-      "Suit": 2,
-      "BoardRow": 6,
-      "BoardCol": 9,
+      "Face": 5,
+      "Suit": 1,
+      "BoardRow": 4,
+      "BoardCol": 1,
       "IsSequence": false,
-      "SequenceScore": 37,
+      "SequenceScore": 36,
       "AllVectorScore": 0,
       "BoardPosition": 1,
       "TokenColor": 3,
       "IsAnchor": false
     },
     "RecommendedBestCard": {
-      "Face": 7,
-      "Suit": 2,
-      "BoardRow": 6,
-      "BoardCol": 9,
+      "Face": 5,
+      "Suit": 1,
+      "BoardRow": 4,
+      "BoardCol": 1,
       "IsSequence": false,
-      "SequenceScore": 37,
+      "SequenceScore": 36,
       "AllVectorScore": 0,
       "BoardPosition": 1,
       "TokenColor": 3,
@@ -3384,7 +3384,7 @@
     "ShowHints": false
   },
   "Player2Name": "Lenovo",
-  "State": 44,
-  "WhoseMoveIsIt": 1,
+  "State": 45,
+  "WhoseMoveIsIt": 2,
   "ShowHints": false
 }
