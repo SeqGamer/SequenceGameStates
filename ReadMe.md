@@ -1,10 +1,10 @@
 # Introduction
 
-There are several ways to play the Sequence boardgame, including two or three player games, and playing with six or seven cards in each hand. The game implemented here is between two players, each holding seven cards in their hands. If you are unsure about the rules of Sequence, they can be reviewed at [**https://www.officialgamerules.org/sequence**](https://www.officialgamerules.org/sequence).
+There are several ways to play the Sequence boardgame, including two or three player games, and playing with six or seven cards in each hand. The game implemented here is between two players, each holding seven cards in their hands. If you are unsure about the rules of Sequence, they can be reviewed at [**https://www.officialgamerules.org/sequence**](https://www.officialgamerules.org/sequence). This game has no ads and is completely free.
 
 # Getting Started
 
-Sequence is implemented as a Windows app that can be installed from [**https://github.com/ArnieBerg/SequenceGameStates**](https://github.com/ArnieBerg/SequenceGameStates).
+Sequence is implemented as a Windows app that can be installed from [**https://github.com/SeqGamer/SequenceGameStates**](https://github.com/SeqGamer/SequenceGameStates).
 
 From this page click on ‘Code’ and then ‘Download ZIP’. When the Zip file is downloaded, double click on it to unzip it, copy and save the **SequenceGameStates-main** folder to a convenient location on your computer. You should then be able to play the game by double-clicking on the SequencePlay.exe file in that folder.
 
@@ -28,8 +28,26 @@ The ’Connection’ section at the bottom of the screen indicates the connectio
 
 # Play Mechanics
 
-With the first two play modes you can drag your cards onto the board (usually the highlighted recommended card for best results). You can also play with the ‘Assist’ checkbox to compare the experience.
+After you click on ‘Play’, the game board window opens and appears as follows, depending on what options were selected for ‘Show hints’ and ‘Show face card graphics’:
 
-# Users
+![](media/ca0239e967a64643ef19c8a88ed26551.png)
 
-**![](media/449ca8cb2c03a16e7b181c9e2a0266cb.png)**
+Your hand always appears on the left. If you are the remote opponent, your hand appears on the right and the player hand on the left is not visible.
+
+The current sequence count is displayed for each player. When the count reaches ‘2’, the game is over, and the winner is declared.
+
+Since the player selected ‘Show hints’ for the display above, the highest scored (27) best card is highlighted in light green. The board square in which to play the card is row 7, column 6 (i.e., (7,6)). Click on the highlighted ‘move’ command button at the bottom automatically selects and plays the best card. Optionally you can override that play and drag and drop the card you wish to play onto the game board. Double-click on the card is not supported as it is ambiguous as to which board square on which to play the card.
+
+The ’Restore game’ dropdown is available if you wish to revert to an earlier version of the game to revise your strategy.
+
+The ‘New game’ command button can be clicked to start a new game.
+
+When the game is over, you may close the game board to go back to the main ‘Play’ window.
+
+When playing against the computer, the computer responds instantly in response to your play. If it feels intimidating at first, you will get used to it. When playing against a remote opponent, the ‘move’ command button is disabled after your move while the app waits for your worthy opponent to respond. When the response arrives, the ‘move’ command button will again be enabled, allowing you to make your best move.
+
+As you play, small green and blue dots will begin to litter the game board, indicating where you have played (see board illustration below). When a sequence is scored, large green (or blue) dots indicating the sequence are displayed.
+
+![](media/b7e5888a7f61694322b18d556bacfe5b.png)
+
+Please send any feedback to [agb465@mail.usask.ca](mailto:agb465@mail.usask.ca).
