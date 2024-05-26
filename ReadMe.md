@@ -8,11 +8,15 @@ Sequence is implemented as a Windows app that can be installed from [**https://g
 
 From this page click on ‘Code’ and then ‘Download ZIP’. When the Zip file is downloaded, double click on it to unzip it, copy and save the **SequenceGameStates-main** folder to a convenient location on your computer. You should then be able to play the game by double-clicking on the SequencePlay.exe file in that folder.
 
+If a prompt appears saying ‘Windows protected your PC’, click on ‘More info’, then click on ‘Run anyway’, and the Sequence app should start.
+
+If an app update is available on the GitHub web site, repeat the above installation method and replace the SequenceGameStates-main folder.
+
 # Play Modes
 
 When the app opens, there are three play modes available, me versus the computer, computer versus the computer, and me versus remote opponent.
 
-![](media/d7ab2c5034ccc69b0bc4034f9c5e487a.png)
+![](media/df4d2a0093608b6226c938f3ab071c52.png)
 
 If you are having trouble finding a partner with whom to play, or are an introvert, the first two modes are for you. ‘Me versus the computer’ gives you a chance to improve your skills against a Sequence expert bot. The second mode, ‘Computer versus the computer’, is similar but it gives you the ability to play both sides of the game.
 
@@ -25,6 +29,8 @@ A couple of other checkboxes make the game more interesting. Make sure you check
 The ’Show face card graphics’ checkbox gives you the option of displaying actual face cards on the game board instead of a text and miniature representation of each card face and suit. When graphic face cards are shown, the game board does not highlight eligible board squares for cards in your hand (if ‘Show hints’ is checked).
 
 The ’Connection’ section at the bottom of the screen indicates the connection status with the remote opponent when attempting to connect for the third play mode. In most cases you can ignore this section, unless the ‘Seconds until pause’ counts down to ‘0’. In that case, you have the option to either click on ‘Continue’ to resume the connection attempt (assuming your opponent has not fallen asleep) or click on ‘Stop’ to halt the connection attempt.
+
+Click on the ‘?’ in the upper right corner to get access to this user guide in a browser window.
 
 # Play Mechanics
 
@@ -44,10 +50,22 @@ The ‘New game’ command button can be clicked to start a new game.
 
 When the game is over, you may close the game board to go back to the main ‘Play’ window.
 
-When playing against the computer, the computer responds instantly in response to your play. If it feels intimidating at first, you will get used to it. When playing against a remote opponent, the ‘move’ command button is disabled after your move while the app waits for your worthy opponent to respond. When the response arrives, the ‘move’ command button will again be enabled, allowing you to make your best move.
+When playing against the computer, the computer responds instantly with its play in response to your play. If it feels intimidating at first, you will get used to it. When playing against a remote opponent, the ‘move’ command button is disabled after your move while the app waits for your worthy opponent to respond. When the response arrives, the ‘move’ command button will again be enabled, allowing you to make your best move.
 
 As you play, small green and blue dots will begin to litter the game board, indicating where you have played (see board illustration below). When a sequence is scored, large green (or blue) dots indicating the sequence are displayed.
 
 ![](media/b7e5888a7f61694322b18d556bacfe5b.png)
+
+**Special setup instructions for third play mode (Me vs remote opponent)**
+
+To play with a remote opponent, the ‘git’ app needs to be installed on your computer. The first time you try to play with the third mode you will be prompted to install the ‘git’ component.
+
+![](media/e442dac0af98024ddcda65364aeb4571.png)
+
+Click on ‘OK’ to proceed with the installation. The installation process starts up and guides you through many choices of implementation options. Simply access the default in each case until the installation is complete. After completion a prompt like the one below appears:
+
+![A screenshot of a computer Description automatically generated](media/c9fbf329c703efa285c1d3bd7a1919b0.png)
+
+Before being able to run in the third mode, the computer needs to be rebooted, so follow the instructions in the prompt and then start the Sequence app again when the computer is restarted.
 
 Please send any feedback to [agb465@mail.usask.ca](mailto:agb465@mail.usask.ca).
