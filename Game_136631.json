@@ -331,8 +331,8 @@
         {
           "Face": 0,
           "Suit": 2,
-          "Status": 0,
-          "TokenColor": 3,
+          "Status": 1,
+          "TokenColor": 0,
           "Row": 1,
           "Col": 9,
           "IsCorner": false,
@@ -1702,7 +1702,7 @@
           "NW_SE_Score": 9,
           "N_S_Score": 17,
           "NE_SW_SCore": 0,
-          "AllVectorScore": 43
+          "AllVectorScore": 0
         },
         {
           "Face": 14,
@@ -2601,18 +2601,6 @@
         "BoardPosition": 0,
         "TokenColor": 3,
         "IsAnchor": false
-      },
-      {
-        "Face": 5,
-        "Suit": 3,
-        "BoardRow": 0,
-        "BoardCol": 0,
-        "IsSequence": false,
-        "SequenceScore": 0,
-        "AllVectorScore": 0,
-        "BoardPosition": 0,
-        "TokenColor": 3,
-        "IsAnchor": false
       }
     ],
     "Discard_Cards": [
@@ -2975,23 +2963,23 @@
         "BoardPosition": 2,
         "TokenColor": 3,
         "IsAnchor": false
+      },
+      {
+        "Face": 5,
+        "Suit": 3,
+        "BoardRow": 0,
+        "BoardCol": 0,
+        "IsSequence": false,
+        "SequenceScore": 0,
+        "AllVectorScore": 0,
+        "BoardPosition": 0,
+        "TokenColor": 3,
+        "IsAnchor": false
       }
     ]
   },
   "Player1": {
     "Hand": [
-      {
-        "Face": 0,
-        "Suit": 2,
-        "BoardRow": 1,
-        "BoardCol": 9,
-        "IsSequence": false,
-        "SequenceScore": 26,
-        "AllVectorScore": 0,
-        "BoardPosition": 1,
-        "TokenColor": 3,
-        "IsAnchor": false
-      },
       {
         "Face": 2,
         "Suit": 3,
@@ -3059,6 +3047,18 @@
         "BoardCol": 9,
         "IsSequence": true,
         "SequenceScore": 1001,
+        "AllVectorScore": 0,
+        "BoardPosition": 0,
+        "TokenColor": 3,
+        "IsAnchor": false
+      },
+      {
+        "Face": 5,
+        "Suit": 3,
+        "BoardRow": 0,
+        "BoardCol": 0,
+        "IsSequence": false,
+        "SequenceScore": 0,
         "AllVectorScore": 0,
         "BoardPosition": 0,
         "TokenColor": 3,
@@ -3298,7 +3298,7 @@
     "ShowHints": false
   },
   "Player2Name": "Arnie",
-  "State": 16,
-  "WhoseMoveIsIt": 1,
+  "State": 17,
+  "WhoseMoveIsIt": 2,
   "ShowHints": false
 }
