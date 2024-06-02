@@ -1131,11 +1131,11 @@
           "IsAnchor": false,
           "IsFrozen": false,
           "Ring": 3,
-          "W_E_Score": 0,
+          "W_E_Score": 35,
           "NW_SE_Score": 0,
-          "N_S_Score": 0,
-          "NE_SW_SCore": 0,
-          "AllVectorScore": 0
+          "N_S_Score": 24,
+          "NE_SW_SCore": 12,
+          "AllVectorScore": 71
         },
         {
           "Face": 4,
@@ -1295,12 +1295,12 @@
         {
           "Face": 3,
           "Suit": 3,
-          "Status": 0,
-          "TokenColor": 3,
+          "Status": 1,
+          "TokenColor": 1,
           "Row": 7,
           "Col": 5,
           "IsCorner": false,
-          "IsAnchor": true,
+          "IsAnchor": false,
           "IsFrozen": false,
           "Ring": 2,
           "W_E_Score": 12,
@@ -1506,14 +1506,14 @@
           "Row": 8,
           "Col": 7,
           "IsCorner": false,
-          "IsAnchor": false,
+          "IsAnchor": true,
           "IsFrozen": false,
           "Ring": 1,
           "W_E_Score": 0,
           "NW_SE_Score": 0,
-          "N_S_Score": 0,
+          "N_S_Score": 35,
           "NE_SW_SCore": 0,
-          "AllVectorScore": 0
+          "AllVectorScore": 35
         },
         {
           "Face": 4,
@@ -2541,18 +2541,6 @@
         "BoardPosition": 0,
         "TokenColor": 3,
         "IsAnchor": false
-      },
-      {
-        "Face": 3,
-        "Suit": 2,
-        "BoardRow": 0,
-        "BoardCol": 0,
-        "IsSequence": false,
-        "SequenceScore": 0,
-        "AllVectorScore": 0,
-        "BoardPosition": 0,
-        "TokenColor": 3,
-        "IsAnchor": false
       }
     ],
     "Discard_Cards": [
@@ -2975,6 +2963,18 @@
         "BoardPosition": 1,
         "TokenColor": 3,
         "IsAnchor": false
+      },
+      {
+        "Face": 3,
+        "Suit": 2,
+        "BoardRow": 6,
+        "BoardCol": 5,
+        "IsSequence": false,
+        "SequenceScore": 74,
+        "AllVectorScore": 0,
+        "BoardPosition": 1,
+        "TokenColor": 3,
+        "IsAnchor": false
       }
     ]
   },
@@ -2998,7 +2998,7 @@
         "BoardRow": 9,
         "BoardCol": 5,
         "IsSequence": false,
-        "SequenceScore": 47,
+        "SequenceScore": 60,
         "AllVectorScore": 0,
         "BoardPosition": 2,
         "TokenColor": 3,
@@ -3034,7 +3034,7 @@
         "BoardRow": 9,
         "BoardCol": 5,
         "IsSequence": false,
-        "SequenceScore": 47,
+        "SequenceScore": 60,
         "AllVectorScore": 0,
         "BoardPosition": 2,
         "TokenColor": 3,
@@ -3184,11 +3184,11 @@
       },
       {
         "Face": 3,
-        "Suit": 3,
-        "BoardRow": 7,
+        "Suit": 2,
+        "BoardRow": 6,
         "BoardCol": 5,
         "IsSequence": false,
-        "SequenceScore": 48,
+        "SequenceScore": 74,
         "AllVectorScore": 0,
         "BoardPosition": 1,
         "TokenColor": 3,
@@ -3197,11 +3197,11 @@
     ],
     "BestCard": {
       "Face": 3,
-      "Suit": 3,
-      "BoardRow": 7,
+      "Suit": 2,
+      "BoardRow": 6,
       "BoardCol": 5,
       "IsSequence": false,
-      "SequenceScore": 48,
+      "SequenceScore": 74,
       "AllVectorScore": 0,
       "BoardPosition": 1,
       "TokenColor": 3,
@@ -3209,11 +3209,11 @@
     },
     "RecommendedBestCard": {
       "Face": 3,
-      "Suit": 3,
-      "BoardRow": 7,
+      "Suit": 2,
+      "BoardRow": 6,
       "BoardCol": 5,
       "IsSequence": false,
-      "SequenceScore": 48,
+      "SequenceScore": 74,
       "AllVectorScore": 0,
       "BoardPosition": 1,
       "TokenColor": 3,
@@ -3226,19 +3226,19 @@
   },
   "Player2Name": "Arnie",
   "Player2CardPlayed": {
-    "Face": 2,
+    "Face": 3,
     "Suit": 3,
-    "BoardRow": 3,
-    "BoardCol": 0,
+    "BoardRow": 7,
+    "BoardCol": 5,
     "IsSequence": false,
-    "SequenceScore": 35,
+    "SequenceScore": 48,
     "AllVectorScore": 0,
     "BoardPosition": 1,
     "TokenColor": 3,
     "IsAnchor": false
   },
   "Player2Wins": 2,
-  "State": 21,
-  "WhoseMoveIsIt": 2,
+  "State": 22,
+  "WhoseMoveIsIt": 1,
   "ShowHints": true
 }
