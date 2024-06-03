@@ -116,11 +116,11 @@
           "IsAnchor": false,
           "IsFrozen": false,
           "Ring": 0,
-          "W_E_Score": 5,
+          "W_E_Score": 0,
           "NW_SE_Score": 0,
           "N_S_Score": 0,
-          "NE_SW_SCore": 5,
-          "AllVectorScore": 10
+          "NE_SW_SCore": 0,
+          "AllVectorScore": 0
         },
         {
           "Face": 13,
@@ -200,14 +200,14 @@
           "Row": 1,
           "Col": 1,
           "IsCorner": false,
-          "IsAnchor": false,
+          "IsAnchor": true,
           "IsFrozen": false,
           "Ring": 1,
           "W_E_Score": 0,
-          "NW_SE_Score": 0,
+          "NW_SE_Score": 9,
           "N_S_Score": 0,
           "NE_SW_SCore": 0,
-          "AllVectorScore": 0
+          "AllVectorScore": 9
         },
         {
           "Face": 1,
@@ -429,8 +429,8 @@
           "W_E_Score": 0,
           "NW_SE_Score": 9,
           "N_S_Score": 9,
-          "NE_SW_SCore": 5,
-          "AllVectorScore": 23
+          "NE_SW_SCore": 0,
+          "AllVectorScore": 18
         },
         {
           "Face": 13,
@@ -556,8 +556,8 @@
         {
           "Face": 12,
           "Suit": 3,
-          "Status": 0,
-          "TokenColor": 3,
+          "Status": 1,
+          "TokenColor": 1,
           "Row": 3,
           "Col": 2,
           "IsCorner": false,
@@ -808,7 +808,7 @@
           "NW_SE_Score": 0,
           "N_S_Score": 35,
           "NE_SW_SCore": 10,
-          "AllVectorScore": 49
+          "AllVectorScore": 0
         },
         {
           "Face": 7,
@@ -877,8 +877,8 @@
           "W_E_Score": 17,
           "NW_SE_Score": 22,
           "N_S_Score": 5,
-          "NE_SW_SCore": 5,
-          "AllVectorScore": 49
+          "NE_SW_SCore": 12,
+          "AllVectorScore": 56
         },
         {
           "Face": 6,
@@ -2613,18 +2613,6 @@
         "BoardPosition": 0,
         "TokenColor": 3,
         "IsAnchor": false
-      },
-      {
-        "Face": 2,
-        "Suit": 1,
-        "BoardRow": 0,
-        "BoardCol": 0,
-        "IsSequence": false,
-        "SequenceScore": 0,
-        "AllVectorScore": 0,
-        "BoardPosition": 0,
-        "TokenColor": 3,
-        "IsAnchor": false
       }
     ],
     "Discard_Cards": [
@@ -2975,6 +2963,18 @@
         "BoardPosition": 1,
         "TokenColor": 3,
         "IsAnchor": false
+      },
+      {
+        "Face": 2,
+        "Suit": 1,
+        "BoardRow": 1,
+        "BoardCol": 1,
+        "IsSequence": false,
+        "SequenceScore": 10,
+        "AllVectorScore": 0,
+        "BoardPosition": 1,
+        "TokenColor": 3,
+        "IsAnchor": false
       }
     ]
   },
@@ -3111,18 +3111,6 @@
   "Player2": {
     "Hand": [
       {
-        "Face": 12,
-        "Suit": 3,
-        "BoardRow": 3,
-        "BoardCol": 2,
-        "IsSequence": false,
-        "SequenceScore": 52,
-        "AllVectorScore": 0,
-        "BoardPosition": 2,
-        "TokenColor": 3,
-        "IsAnchor": false
-      },
-      {
         "Face": 0,
         "Suit": 1,
         "BoardRow": 5,
@@ -3152,7 +3140,7 @@
         "BoardRow": 2,
         "BoardCol": 4,
         "IsSequence": false,
-        "SequenceScore": 25,
+        "SequenceScore": 20,
         "AllVectorScore": 0,
         "BoardPosition": 2,
         "TokenColor": 3,
@@ -3164,7 +3152,7 @@
         "BoardRow": 5,
         "BoardCol": 0,
         "IsSequence": false,
-        "SequenceScore": 49,
+        "SequenceScore": 56,
         "AllVectorScore": 0,
         "BoardPosition": 1,
         "TokenColor": 3,
@@ -3193,29 +3181,41 @@
         "BoardPosition": 2,
         "TokenColor": 3,
         "IsAnchor": false
+      },
+      {
+        "Face": 2,
+        "Suit": 1,
+        "BoardRow": 1,
+        "BoardCol": 1,
+        "IsSequence": false,
+        "SequenceScore": 10,
+        "AllVectorScore": 0,
+        "BoardPosition": 1,
+        "TokenColor": 3,
+        "IsAnchor": false
       }
     ],
     "BestCard": {
-      "Face": 12,
-      "Suit": 3,
-      "BoardRow": 3,
-      "BoardCol": 2,
+      "Face": 0,
+      "Suit": 0,
+      "BoardRow": 5,
+      "BoardCol": 0,
       "IsSequence": false,
-      "SequenceScore": 52,
+      "SequenceScore": 56,
       "AllVectorScore": 0,
-      "BoardPosition": 2,
+      "BoardPosition": 1,
       "TokenColor": 3,
       "IsAnchor": false
     },
     "RecommendedBestCard": {
-      "Face": 12,
-      "Suit": 3,
-      "BoardRow": 3,
-      "BoardCol": 2,
+      "Face": 0,
+      "Suit": 0,
+      "BoardRow": 5,
+      "BoardCol": 0,
       "IsSequence": false,
-      "SequenceScore": 52,
+      "SequenceScore": 56,
       "AllVectorScore": 0,
-      "BoardPosition": 2,
+      "BoardPosition": 1,
       "TokenColor": 3,
       "IsAnchor": false
     },
@@ -3226,19 +3226,19 @@
   },
   "Player2Name": "Arnie",
   "Player2CardPlayed": {
-    "Face": 8,
-    "Suit": 0,
+    "Face": 12,
+    "Suit": 3,
     "BoardRow": 3,
-    "BoardCol": 8,
+    "BoardCol": 2,
     "IsSequence": false,
-    "SequenceScore": 59,
+    "SequenceScore": 52,
     "AllVectorScore": 0,
-    "BoardPosition": 1,
+    "BoardPosition": 2,
     "TokenColor": 3,
     "IsAnchor": false
   },
   "Player2Wins": 0,
-  "State": 15,
-  "WhoseMoveIsIt": 2,
+  "State": 16,
+  "WhoseMoveIsIt": 1,
   "ShowHints": true
 }
