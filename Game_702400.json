@@ -153,8 +153,8 @@
           "W_E_Score": 9,
           "NW_SE_Score": 0,
           "N_S_Score": 22,
-          "NE_SW_SCore": 12,
-          "AllVectorScore": 43
+          "NE_SW_SCore": 0,
+          "AllVectorScore": 31
         },
         {
           "Face": 14,
@@ -292,7 +292,7 @@
           "NW_SE_Score": 35,
           "N_S_Score": 36,
           "NE_SW_SCore": 9,
-          "AllVectorScore": 85
+          "AllVectorScore": 0
         },
         {
           "Face": 5,
@@ -409,11 +409,11 @@
           "IsAnchor": false,
           "IsFrozen": false,
           "Ring": 2,
-          "W_E_Score": 12,
+          "W_E_Score": 22,
           "NW_SE_Score": 22,
           "N_S_Score": 10,
           "NE_SW_SCore": 9,
-          "AllVectorScore": 53
+          "AllVectorScore": 63
         },
         {
           "Face": 0,
@@ -452,8 +452,8 @@
         {
           "Face": 12,
           "Suit": 2,
-          "Status": 1,
-          "TokenColor": 1,
+          "Status": 0,
+          "TokenColor": 3,
           "Row": 2,
           "Col": 6,
           "IsCorner": false,
@@ -1651,7 +1651,7 @@
           "NW_SE_Score": 0,
           "N_S_Score": 10,
           "NE_SW_SCore": 0,
-          "AllVectorScore": 20
+          "AllVectorScore": 0
         },
         {
           "Face": 3,
@@ -2625,18 +2625,6 @@
         "BoardPosition": 0,
         "TokenColor": 3,
         "IsAnchor": false
-      },
-      {
-        "Face": 10,
-        "Suit": 1,
-        "BoardRow": 0,
-        "BoardCol": 0,
-        "IsSequence": false,
-        "SequenceScore": 0,
-        "AllVectorScore": 0,
-        "BoardPosition": 0,
-        "TokenColor": 3,
-        "IsAnchor": false
       }
     ],
     "Discard_Cards": [
@@ -2975,14 +2963,10 @@
         "BoardPosition": 1,
         "TokenColor": 3,
         "IsAnchor": false
-      }
-    ]
-  },
-  "Player1": {
-    "Hand": [
+      },
       {
         "Face": 10,
-        "Suit": 0,
+        "Suit": 1,
         "BoardRow": 0,
         "BoardCol": 0,
         "IsSequence": false,
@@ -2991,7 +2975,11 @@
         "BoardPosition": 0,
         "TokenColor": 3,
         "IsAnchor": false
-      },
+      }
+    ]
+  },
+  "Player1": {
+    "Hand": [
       {
         "Face": 10,
         "Suit": 1,
@@ -3063,6 +3051,18 @@
         "BoardPosition": 2,
         "TokenColor": 3,
         "IsAnchor": false
+      },
+      {
+        "Face": 10,
+        "Suit": 1,
+        "BoardRow": 0,
+        "BoardCol": 0,
+        "IsSequence": false,
+        "SequenceScore": 0,
+        "AllVectorScore": 0,
+        "BoardPosition": 0,
+        "TokenColor": 3,
+        "IsAnchor": false
       }
     ],
     "BestCard": {
@@ -3096,14 +3096,14 @@
   },
   "Player1Name": "Brenda",
   "Player1CardPlayed": {
-    "Face": 5,
-    "Suit": 2,
-    "BoardRow": 6,
-    "BoardCol": 7,
+    "Face": 10,
+    "Suit": 0,
+    "BoardRow": 2,
+    "BoardCol": 6,
     "IsSequence": false,
-    "SequenceScore": 26,
+    "SequenceScore": -1,
     "AllVectorScore": 0,
-    "BoardPosition": 1,
+    "BoardPosition": 0,
     "TokenColor": 3,
     "IsAnchor": false
   },
@@ -3152,7 +3152,7 @@
         "BoardRow": 2,
         "BoardCol": 3,
         "IsSequence": false,
-        "SequenceScore": 55,
+        "SequenceScore": 65,
         "AllVectorScore": 0,
         "BoardPosition": 2,
         "TokenColor": 3,
@@ -3201,7 +3201,7 @@
       "BoardRow": 2,
       "BoardCol": 3,
       "IsSequence": false,
-      "SequenceScore": 55,
+      "SequenceScore": 65,
       "AllVectorScore": 0,
       "BoardPosition": 2,
       "TokenColor": 3,
@@ -3213,7 +3213,7 @@
       "BoardRow": 2,
       "BoardCol": 3,
       "IsSequence": false,
-      "SequenceScore": 55,
+      "SequenceScore": 65,
       "AllVectorScore": 0,
       "BoardPosition": 2,
       "TokenColor": 3,
@@ -3238,7 +3238,7 @@
     "IsAnchor": false
   },
   "Player2Wins": 0,
-  "State": 14,
-  "WhoseMoveIsIt": 1,
+  "State": 15,
+  "WhoseMoveIsIt": 2,
   "ShowHints": true
 }
