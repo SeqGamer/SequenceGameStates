@@ -1038,8 +1038,8 @@
         {
           "Face": 13,
           "Suit": 0,
-          "Status": 0,
-          "TokenColor": 3,
+          "Status": 1,
+          "TokenColor": 0,
           "Row": 6,
           "Col": 0,
           "IsCorner": false,
@@ -1340,8 +1340,8 @@
           "W_E_Score": 22,
           "NW_SE_Score": 2,
           "N_S_Score": 22,
-          "NE_SW_SCore": 17,
-          "AllVectorScore": 63
+          "NE_SW_SCore": 12,
+          "AllVectorScore": 58
         },
         {
           "Face": 0,
@@ -2409,18 +2409,6 @@
         "BoardPosition": 0,
         "TokenColor": 3,
         "IsAnchor": false
-      },
-      {
-        "Face": 4,
-        "Suit": 1,
-        "BoardRow": 0,
-        "BoardCol": 0,
-        "IsSequence": false,
-        "SequenceScore": 0,
-        "AllVectorScore": 0,
-        "BoardPosition": 0,
-        "TokenColor": 3,
-        "IsAnchor": false
       }
     ],
     "Discard_Cards": [
@@ -2975,6 +2963,18 @@
         "BoardPosition": 0,
         "TokenColor": 3,
         "IsAnchor": false
+      },
+      {
+        "Face": 4,
+        "Suit": 1,
+        "BoardRow": 3,
+        "BoardCol": 1,
+        "IsSequence": false,
+        "SequenceScore": 18,
+        "AllVectorScore": 0,
+        "BoardPosition": 1,
+        "TokenColor": 3,
+        "IsAnchor": false
       }
     ]
   },
@@ -3010,7 +3010,7 @@
         "BoardRow": 2,
         "BoardCol": 2,
         "IsSequence": false,
-        "SequenceScore": 38,
+        "SequenceScore": 43,
         "AllVectorScore": 0,
         "BoardPosition": 2,
         "TokenColor": 3,
@@ -3034,7 +3034,7 @@
         "BoardRow": 2,
         "BoardCol": 2,
         "IsSequence": false,
-        "SequenceScore": 38,
+        "SequenceScore": 43,
         "AllVectorScore": 0,
         "BoardPosition": 2,
         "TokenColor": 3,
@@ -3043,49 +3043,49 @@
       {
         "Face": 1,
         "Suit": 3,
-        "BoardRow": 7,
-        "BoardCol": 7,
+        "BoardRow": 4,
+        "BoardCol": 0,
         "IsSequence": false,
-        "SequenceScore": 65,
+        "SequenceScore": 73,
         "AllVectorScore": 0,
-        "BoardPosition": 2,
+        "BoardPosition": 1,
         "TokenColor": 3,
         "IsAnchor": false
       },
       {
-        "Face": 13,
-        "Suit": 0,
-        "BoardRow": 6,
-        "BoardCol": 8,
+        "Face": 4,
+        "Suit": 1,
+        "BoardRow": 3,
+        "BoardCol": 1,
         "IsSequence": false,
-        "SequenceScore": 74,
+        "SequenceScore": 18,
         "AllVectorScore": 0,
-        "BoardPosition": 2,
+        "BoardPosition": 1,
         "TokenColor": 3,
         "IsAnchor": false
       }
     ],
     "BestCard": {
-      "Face": 13,
-      "Suit": 0,
-      "BoardRow": 6,
-      "BoardCol": 8,
+      "Face": 1,
+      "Suit": 3,
+      "BoardRow": 4,
+      "BoardCol": 0,
       "IsSequence": false,
-      "SequenceScore": 74,
+      "SequenceScore": 73,
       "AllVectorScore": 0,
-      "BoardPosition": 2,
+      "BoardPosition": 1,
       "TokenColor": 3,
       "IsAnchor": false
     },
     "RecommendedBestCard": {
-      "Face": 13,
-      "Suit": 0,
-      "BoardRow": 6,
-      "BoardCol": 8,
+      "Face": 1,
+      "Suit": 3,
+      "BoardRow": 4,
+      "BoardCol": 0,
       "IsSequence": false,
-      "SequenceScore": 74,
+      "SequenceScore": 73,
       "AllVectorScore": 0,
-      "BoardPosition": 2,
+      "BoardPosition": 1,
       "TokenColor": 3,
       "IsAnchor": false
     },
@@ -3096,14 +3096,14 @@
   },
   "Player1Name": "Brenda",
   "Player1CardPlayed": {
-    "Face": 10,
-    "Suit": 1,
-    "BoardRow": 3,
-    "BoardCol": 6,
+    "Face": 13,
+    "Suit": 0,
+    "BoardRow": 6,
+    "BoardCol": 0,
     "IsSequence": false,
-    "SequenceScore": 0,
+    "SequenceScore": 74,
     "AllVectorScore": 0,
-    "BoardPosition": 0,
+    "BoardPosition": 2,
     "TokenColor": 3,
     "IsAnchor": false
   },
@@ -3324,7 +3324,7 @@
     "IsAnchor": false
   },
   "Player2Wins": 0,
-  "State": 32,
-  "WhoseMoveIsIt": 1,
+  "State": 33,
+  "WhoseMoveIsIt": 2,
   "ShowHints": true
 }
