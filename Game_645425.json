@@ -1244,8 +1244,8 @@
         {
           "Face": 6,
           "Suit": 3,
-          "Status": 0,
-          "TokenColor": 3,
+          "Status": 1,
+          "TokenColor": 1,
           "Row": 7,
           "Col": 2,
           "IsCorner": false,
@@ -2421,18 +2421,6 @@
         "BoardPosition": 0,
         "TokenColor": 3,
         "IsAnchor": false
-      },
-      {
-        "Face": 1,
-        "Suit": 2,
-        "BoardRow": 0,
-        "BoardCol": 0,
-        "IsSequence": false,
-        "SequenceScore": 0,
-        "AllVectorScore": 0,
-        "BoardPosition": 0,
-        "TokenColor": 3,
-        "IsAnchor": false
       }
     ],
     "Discard_Cards": [
@@ -2975,6 +2963,18 @@
         "BoardPosition": 2,
         "TokenColor": 3,
         "IsAnchor": false
+      },
+      {
+        "Face": 1,
+        "Suit": 2,
+        "BoardRow": 0,
+        "BoardCol": 0,
+        "IsSequence": false,
+        "SequenceScore": 0,
+        "AllVectorScore": 0,
+        "BoardPosition": 0,
+        "TokenColor": 3,
+        "IsAnchor": false
       }
     ]
   },
@@ -3171,8 +3171,8 @@
         "IsAnchor": false
       },
       {
-        "Face": 6,
-        "Suit": 3,
+        "Face": 9,
+        "Suit": 0,
         "BoardRow": 0,
         "BoardCol": 0,
         "IsSequence": false,
@@ -3183,8 +3183,8 @@
         "IsAnchor": false
       },
       {
-        "Face": 9,
-        "Suit": 0,
+        "Face": 1,
+        "Suit": 2,
         "BoardRow": 0,
         "BoardCol": 0,
         "IsSequence": false,
@@ -3312,10 +3312,10 @@
   },
   "Player2Name": "Arnie",
   "Player2CardPlayed": {
-    "Face": 12,
-    "Suit": 2,
-    "BoardRow": 2,
-    "BoardCol": 6,
+    "Face": 6,
+    "Suit": 3,
+    "BoardRow": 7,
+    "BoardCol": 2,
     "IsSequence": false,
     "SequenceScore": 0,
     "AllVectorScore": 0,
@@ -3324,7 +3324,7 @@
     "IsAnchor": false
   },
   "Player2Wins": 0,
-  "State": 31,
-  "WhoseMoveIsIt": 2,
+  "State": 32,
+  "WhoseMoveIsIt": 1,
   "ShowHints": true
 }
