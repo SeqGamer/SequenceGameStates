@@ -1337,11 +1337,11 @@
           "IsAnchor": false,
           "IsFrozen": false,
           "Ring": 2,
-          "W_E_Score": 0,
-          "NW_SE_Score": 10,
-          "N_S_Score": 0,
-          "NE_SW_SCore": 0,
-          "AllVectorScore": 0
+          "W_E_Score": 22,
+          "NW_SE_Score": 2,
+          "N_S_Score": 22,
+          "NE_SW_SCore": 12,
+          "AllVectorScore": 58
         },
         {
           "Face": 0,
@@ -1571,12 +1571,12 @@
         {
           "Face": 8,
           "Suit": 0,
-          "Status": 0,
-          "TokenColor": 3,
+          "Status": 1,
+          "TokenColor": 0,
           "Row": 9,
           "Col": 1,
           "IsCorner": false,
-          "IsAnchor": true,
+          "IsAnchor": false,
           "IsFrozen": false,
           "Ring": 0,
           "W_E_Score": 2,
@@ -2457,18 +2457,6 @@
         "BoardPosition": 0,
         "TokenColor": 3,
         "IsAnchor": false
-      },
-      {
-        "Face": 1,
-        "Suit": 3,
-        "BoardRow": 0,
-        "BoardCol": 0,
-        "IsSequence": false,
-        "SequenceScore": 0,
-        "AllVectorScore": 0,
-        "BoardPosition": 0,
-        "TokenColor": 3,
-        "IsAnchor": false
       }
     ],
     "Discard_Cards": [
@@ -2975,6 +2963,18 @@
         "BoardPosition": 0,
         "TokenColor": 3,
         "IsAnchor": false
+      },
+      {
+        "Face": 1,
+        "Suit": 3,
+        "BoardRow": 7,
+        "BoardCol": 7,
+        "IsSequence": false,
+        "SequenceScore": 60,
+        "AllVectorScore": 0,
+        "BoardPosition": 2,
+        "TokenColor": 3,
+        "IsAnchor": false
       }
     ]
   },
@@ -3005,24 +3005,12 @@
         "IsAnchor": false
       },
       {
-        "Face": 8,
-        "Suit": 0,
-        "BoardRow": 3,
-        "BoardCol": 8,
-        "IsSequence": false,
-        "SequenceScore": 44,
-        "AllVectorScore": 0,
-        "BoardPosition": 1,
-        "TokenColor": 3,
-        "IsAnchor": false
-      },
-      {
         "Face": 13,
         "Suit": 3,
         "BoardRow": 2,
         "BoardCol": 2,
         "IsSequence": false,
-        "SequenceScore": 24,
+        "SequenceScore": 29,
         "AllVectorScore": 0,
         "BoardPosition": 2,
         "TokenColor": 3,
@@ -3058,7 +3046,19 @@
         "BoardRow": 2,
         "BoardCol": 2,
         "IsSequence": false,
-        "SequenceScore": 24,
+        "SequenceScore": 29,
+        "AllVectorScore": 0,
+        "BoardPosition": 2,
+        "TokenColor": 3,
+        "IsAnchor": false
+      },
+      {
+        "Face": 1,
+        "Suit": 3,
+        "BoardRow": 7,
+        "BoardCol": 7,
+        "IsSequence": false,
+        "SequenceScore": 60,
         "AllVectorScore": 0,
         "BoardPosition": 2,
         "TokenColor": 3,
@@ -3066,26 +3066,26 @@
       }
     ],
     "BestCard": {
-      "Face": 8,
-      "Suit": 0,
-      "BoardRow": 3,
-      "BoardCol": 8,
+      "Face": 1,
+      "Suit": 3,
+      "BoardRow": 7,
+      "BoardCol": 7,
       "IsSequence": false,
-      "SequenceScore": 44,
+      "SequenceScore": 60,
       "AllVectorScore": 0,
-      "BoardPosition": 1,
+      "BoardPosition": 2,
       "TokenColor": 3,
       "IsAnchor": false
     },
     "RecommendedBestCard": {
-      "Face": 8,
-      "Suit": 0,
-      "BoardRow": 3,
-      "BoardCol": 8,
+      "Face": 1,
+      "Suit": 3,
+      "BoardRow": 7,
+      "BoardCol": 7,
       "IsSequence": false,
-      "SequenceScore": 44,
+      "SequenceScore": 60,
       "AllVectorScore": 0,
-      "BoardPosition": 1,
+      "BoardPosition": 2,
       "TokenColor": 3,
       "IsAnchor": false
     },
@@ -3096,12 +3096,12 @@
   },
   "Player1Name": "Brenda",
   "Player1CardPlayed": {
-    "Face": 6,
+    "Face": 8,
     "Suit": 0,
-    "BoardRow": 1,
-    "BoardCol": 8,
+    "BoardRow": 9,
+    "BoardCol": 1,
     "IsSequence": false,
-    "SequenceScore": 32,
+    "SequenceScore": 44,
     "AllVectorScore": 0,
     "BoardPosition": 1,
     "TokenColor": 3,
@@ -3324,7 +3324,7 @@
     "IsAnchor": false
   },
   "Player2Wins": 0,
-  "State": 28,
-  "WhoseMoveIsIt": 1,
+  "State": 29,
+  "WhoseMoveIsIt": 2,
   "ShowHints": true
 }
