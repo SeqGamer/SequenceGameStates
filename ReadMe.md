@@ -18,7 +18,7 @@ If an app update is available on the GitHub web site, repeat the above installat
 
 When the app opens, there are three play modes available, me versus the computer, computer versus the computer, and me versus remote opponent.
 
-![](../../../SequenceGameStates/media/df4d2a0093608b6226c938f3ab071c52.png)
+![](media/df4d2a0093608b6226c938f3ab071c52.png)
 
 If you are having trouble finding a partner with whom to play, or are an introvert, the first two modes are for you. ‘**Me versus the computer**’ gives you a chance to improve your skills against a Sequence expert bot. The second mode, ‘**Computer versus the computer**’, is similar but it gives you the ability to play both sides of the game.
 
@@ -40,7 +40,7 @@ After you click on ‘Play’, the game board window opens and appears as follow
 
 
 
-![image-20240620090043536](C:\SequenceGameStates\media\image-20240620090043536.png)
+![image-20240620090043536](media\image-20240620090043536.png)
 
 Your hand of cards always appears on the left. If you are the remote opponent, your hand appears on the right and the player hand on the left is not visible. The cards in each hand are ordered according to the 'Order cards by...' dropdown. Options are by card suit, by best card, and randomly.
 
@@ -60,7 +60,7 @@ When the game is over, you may close the game board to go back to the main ‘Pl
 
 As you play, small green and blue dots will begin to litter the game board, indicating where you have played (see board illustration below). When a sequence is scored, the board squares in green (or blue) are highlighted.
 
-![image-20240620110128572](C:\SequenceGameStates\media\image-20240620110128572.png)
+![image-20240620110128572](media\image-20240620110128572.png)
 
 
 
