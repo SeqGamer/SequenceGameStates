@@ -1,5 +1,5 @@
 {
-  "GameToken": "135607",
+  "GameToken": "532670",
   "Board": {
     "boardList": [
       [
@@ -3211,5 +3211,5 @@
   "Player2Wins": 0,
   "State": 0,
   "WhoseMoveIsIt": 0,
-  "ShowHints": false
+  "ShowHints": true
 }
