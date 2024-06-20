@@ -40,7 +40,7 @@ After you click on ‘Play’, the game board window opens and appears as follow
 
 
 
-![image-20240620090043536](media\image-20240620090043536.png)
+![image-20240620090043536](media/image-20240620090043536.png)
 
 Your hand of cards always appears on the left. If you are the remote opponent, your hand appears on the right and the player hand on the left is not visible. The cards in each hand are ordered according to the 'Order cards by...' dropdown. Options are by card suit, by best card, and randomly.
 
@@ -60,7 +60,7 @@ When the game is over, you may close the game board to go back to the main ‘Pl
 
 As you play, small green and blue dots will begin to litter the game board, indicating where you have played (see board illustration below). When a sequence is scored, the board squares in green (or blue) are highlighted.
 
-![image-20240620110128572](media\image-20240620110128572.png)
+![image-20240620110128572](media/image-20240620110128572.png)
 
 
 
