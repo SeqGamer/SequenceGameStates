@@ -52,15 +52,19 @@ The ’Restore game’ dropdown is available if you wish to revert to an earlier
 
 The ‘New game’ command button can be clicked to start a new game. This command only appears for the primary player (green), not the remote player (blue) in a two-player game.
 
-When the game is over, you may close the game board to go back to the main ‘Play’ window.
-
 When playing against the computer, the computer responds instantly with its play in response to your play. If it feels intimidating at first, you will get used to it. When playing against a remote opponent, the ‘move...’ command button is disabled after your move while the app waits for your worthy opponent to respond. When the response arrives, the ‘move’ command button will again be enabled, allowing you to make your best move.
 
+When the game is over, you may close the game board to go back to the main ‘Play’ window.
 
 
-As you play, small green and blue dots will begin to litter the game board, indicating where you have played (see board illustration below). When a sequence is scored, large green (or blue) dots indicating the sequence are displayed.
 
-![](media/b7e5888a7f61694322b18d556bacfe5b.png)
+As you play, small green and blue dots will begin to litter the game board, indicating where you have played (see board illustration below). When a sequence is scored, the board squares in green (or blue) are highlighted.
+
+![image-20240620110128572](C:\Users\agb46\AppData\Roaming\Typora\typora-user-images\image-20240620110128572.png)
+
+
+
+**TWO-PLAYER Game**
 
 **Special setup instructions for third play mode (Me vs remote opponent)**
 
