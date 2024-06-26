@@ -556,8 +556,8 @@
         {
           "Face": 12,
           "Suit": 3,
-          "Status": 0,
-          "TokenColor": 3,
+          "Status": 1,
+          "TokenColor": 0,
           "Row": 3,
           "Col": 2,
           "IsCorner": false,
@@ -980,7 +980,7 @@
           "NW_SE_Score": 22,
           "N_S_Score": 22,
           "NE_SW_SCore": 10,
-          "AllVectorScore": 89
+          "AllVectorScore": 0
         },
         {
           "Face": 6,
@@ -997,7 +997,7 @@
           "NW_SE_Score": 9,
           "N_S_Score": 9,
           "NE_SW_SCore": 9,
-          "AllVectorScore": 62
+          "AllVectorScore": 0
         },
         {
           "Face": 12,
@@ -1031,7 +1031,7 @@
           "NW_SE_Score": 9,
           "N_S_Score": 0,
           "NE_SW_SCore": 9,
-          "AllVectorScore": 53
+          "AllVectorScore": 0
         }
       ],
       [
@@ -1148,11 +1148,11 @@
           "IsAnchor": false,
           "IsFrozen": false,
           "Ring": 3,
-          "W_E_Score": 0,
-          "NW_SE_Score": 0,
-          "N_S_Score": 20,
-          "NE_SW_SCore": 0,
-          "AllVectorScore": 20
+          "W_E_Score": 35,
+          "NW_SE_Score": 24,
+          "N_S_Score": 46,
+          "NE_SW_SCore": 29,
+          "AllVectorScore": 134
         },
         {
           "Face": 5,
@@ -1526,11 +1526,11 @@
           "IsAnchor": false,
           "IsFrozen": false,
           "Ring": 1,
-          "W_E_Score": 0,
-          "NW_SE_Score": 0,
-          "N_S_Score": 0,
+          "W_E_Score": 5,
+          "NW_SE_Score": 17,
+          "N_S_Score": 12,
           "NE_SW_SCore": 0,
-          "AllVectorScore": 0
+          "AllVectorScore": 34
         },
         {
           "Face": 5,
@@ -1543,11 +1543,11 @@
           "IsAnchor": false,
           "IsFrozen": false,
           "Ring": 0,
-          "W_E_Score": 0,
+          "W_E_Score": 5,
           "NW_SE_Score": 24,
           "N_S_Score": 17,
           "NE_SW_SCore": 0,
-          "AllVectorScore": 41
+          "AllVectorScore": 46
         }
       ],
       [
@@ -1616,8 +1616,8 @@
           "W_E_Score": 35,
           "NW_SE_Score": 0,
           "N_S_Score": 35,
-          "NE_SW_SCore": 24,
-          "AllVectorScore": 94
+          "NE_SW_SCore": 29,
+          "AllVectorScore": 99
         },
         {
           "Face": 5,
@@ -2537,20 +2537,6 @@
         "IsAnchor": false,
         "ReplaceFaceBy1IJack": 0,
         "ReplaceBySuit1IJack": 0
-      },
-      {
-        "Face": 4,
-        "Suit": 2,
-        "BoardRow": 0,
-        "BoardCol": 0,
-        "IsSequence": false,
-        "SequenceScore": 0,
-        "AllVectorScore": 0,
-        "BoardPosition": 0,
-        "TokenColor": 3,
-        "IsAnchor": false,
-        "ReplaceFaceBy1IJack": 0,
-        "ReplaceBySuit1IJack": 0
       }
     ],
     "Discard_Cards": [
@@ -3183,6 +3169,20 @@
         "IsAnchor": false,
         "ReplaceFaceBy1IJack": 0,
         "ReplaceBySuit1IJack": 0
+      },
+      {
+        "Face": 4,
+        "Suit": 2,
+        "BoardRow": 6,
+        "BoardCol": 6,
+        "IsSequence": false,
+        "SequenceScore": 137,
+        "AllVectorScore": 0,
+        "BoardPosition": 1,
+        "TokenColor": 0,
+        "IsAnchor": false,
+        "ReplaceFaceBy1IJack": 0,
+        "ReplaceBySuit1IJack": 0
       }
     ]
   },
@@ -3222,7 +3222,7 @@
         "BoardRow": 9,
         "BoardCol": 3,
         "IsSequence": false,
-        "SequenceScore": 94,
+        "SequenceScore": 99,
         "AllVectorScore": 0,
         "BoardPosition": 2,
         "TokenColor": 0,
@@ -3239,20 +3239,6 @@
         "SequenceScore": 0,
         "AllVectorScore": 0,
         "BoardPosition": 0,
-        "TokenColor": 0,
-        "IsAnchor": false,
-        "ReplaceFaceBy1IJack": 0,
-        "ReplaceBySuit1IJack": 0
-      },
-      {
-        "Face": 12,
-        "Suit": 3,
-        "BoardRow": 3,
-        "BoardCol": 2,
-        "IsSequence": false,
-        "SequenceScore": 59,
-        "AllVectorScore": 0,
-        "BoardPosition": 2,
         "TokenColor": 0,
         "IsAnchor": false,
         "ReplaceFaceBy1IJack": 0,
@@ -3285,15 +3271,29 @@
         "IsAnchor": false,
         "ReplaceFaceBy1IJack": 0,
         "ReplaceBySuit1IJack": 0
+      },
+      {
+        "Face": 4,
+        "Suit": 2,
+        "BoardRow": 6,
+        "BoardCol": 6,
+        "IsSequence": false,
+        "SequenceScore": 137,
+        "AllVectorScore": 0,
+        "BoardPosition": 1,
+        "TokenColor": 0,
+        "IsAnchor": false,
+        "ReplaceFaceBy1IJack": 0,
+        "ReplaceBySuit1IJack": 0
       }
     ],
     "BestCard": {
-      "Face": 5,
+      "Face": 4,
       "Suit": 2,
       "BoardRow": 6,
-      "BoardCol": 7,
+      "BoardCol": 6,
       "IsSequence": false,
-      "SequenceScore": 124,
+      "SequenceScore": 137,
       "AllVectorScore": 0,
       "BoardPosition": 1,
       "TokenColor": 0,
@@ -3302,12 +3302,12 @@
       "ReplaceBySuit1IJack": 0
     },
     "RecommendedBestCard": {
-      "Face": 5,
+      "Face": 4,
       "Suit": 2,
       "BoardRow": 6,
-      "BoardCol": 7,
+      "BoardCol": 6,
       "IsSequence": false,
-      "SequenceScore": 124,
+      "SequenceScore": 137,
       "AllVectorScore": 0,
       "BoardPosition": 1,
       "TokenColor": 0,
@@ -3316,14 +3316,14 @@
       "ReplaceBySuit1IJack": 0
     },
     "DealtCard": {
-      "Face": 12,
-      "Suit": 1,
-      "BoardRow": 0,
-      "BoardCol": 0,
+      "Face": 4,
+      "Suit": 2,
+      "BoardRow": 6,
+      "BoardCol": 6,
       "IsSequence": false,
-      "SequenceScore": 0,
+      "SequenceScore": 137,
       "AllVectorScore": 0,
-      "BoardPosition": 0,
+      "BoardPosition": 1,
       "TokenColor": 0,
       "IsAnchor": false,
       "ReplaceFaceBy1IJack": 0,
@@ -3335,14 +3335,14 @@
   },
   "Player1Name": "Brenda",
   "Player1CardPlayed": {
-    "Face": 11,
+    "Face": 12,
     "Suit": 3,
-    "BoardRow": 5,
-    "BoardCol": 6,
+    "BoardRow": 3,
+    "BoardCol": 2,
     "IsSequence": false,
-    "SequenceScore": 1,
+    "SequenceScore": 59,
     "AllVectorScore": 0,
-    "BoardPosition": 0,
+    "BoardPosition": 2,
     "TokenColor": 3,
     "IsAnchor": false,
     "ReplaceFaceBy1IJack": 0,
@@ -3512,8 +3512,8 @@
     "ReplaceBySuit1IJack": 0
   },
   "Player2Wins": 2,
-  "State": 31,
-  "WhoseMoveIsIt": 1,
+  "State": 32,
+  "WhoseMoveIsIt": 2,
   "ShowHints": false,
   "SignalSequence": false
 }
