@@ -1,5 +1,5 @@
 {
-  "GameToken": "955343",
+  "GameToken": "485915",
   "Board": {
     "boardList": [
       [
@@ -3194,7 +3194,7 @@
     "TokenColor": 0,
     "ShowHints": false
   },
-  "Player1Name": "Brenda",
+  "Player1Name": "Waldo",
   "Player1CardPlayed": null,
   "Player1Wins": 0,
   "Player2": {
