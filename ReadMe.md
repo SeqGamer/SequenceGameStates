@@ -8,11 +8,11 @@ If you are unsure about the rules of Sequence, they can be reviewed at [**https:
 
 Sequence is implemented as a Windows app that can be installed from [**https://github.com/SeqGamer/SequenceGameStates**](https://github.com/SeqGamer/SequenceGameStates).
 
-From this page click on ‘Code’ and then ‘Download ZIP’. When the Zip file is downloaded, double click on it to unzip it, copy and save the **SequenceGameStates-main** folder to a convenient location on your computer. You should then be able to play the game by double-clicking on the SequencePlay.exe file in that folder.
+From this page click on ‘Code’ and then ‘Download ZIP’. When the Zip file is downloaded, double click on it to unzip it, copy and save the **SequenceGameStates-main** folder to a convenient location on your computer. **Rename the folder to SequenceGameStates**. You should then be able to play the game by double-clicking on the SequencePlay.exe file in that folder.
 
 If a prompt appears saying ‘Windows protected your PC’, click on ‘More info’, then click on ‘Run anyway’, and the Sequence app should start.
 
-If an app update is available on the GitHub web site, repeat the above installation method and replace the SequenceGameStates-main folder.
+If an app update is available on the GitHub web site, repeat the above installation method.
 
 # Play Modes
 
@@ -30,6 +30,8 @@ A couple of other checkboxes make the game more interesting. Make sure you check
 
 The ’**Show face card graphics**’ checkbox gives you the option of displaying actual face cards on the game board instead of a text and miniature representation of each card face and suit. When graphic face cards are shown, the game board does not highlight eligible board squares for cards in your hand (if ‘Show hints’ is checked).
 
+When playing with card graphics, click on a non-Jack card in your hand and the board will highlight with a yellow star those board squares where the card may be played.
+
 The ’Connection’ section at the bottom of the screen indicates the connection status with the remote opponent when attempting to connect for the third play mode (i.e., two-player mode). In most cases you can ignore this section, unless the ‘Seconds until pause’ counts down to ‘0’. In that case, you have the option to either click on ‘Continue’ to resume the connection attempt (assuming your opponent has not fallen asleep or gone to watch the football game) or click on ‘Stop’ to halt the connection attempt.
 
 Click on the ‘?’ in the upper right corner to get access to this user guide in a browser window.
@@ -37,8 +39,6 @@ Click on the ‘?’ in the upper right corner to get access to this user guide 
 # Play Mechanics
 
 After you click on ‘Play’, the game board window opens and appears as follows, depending on what options were selected for ‘Show hints’ and ‘Show face card graphics’:
-
-
 
 ![image-20240620090043536](media/image-20240620090043536.png)
 
@@ -56,8 +56,6 @@ When playing against the computer, the computer responds instantly with its play
 
 When the game is over, you may close the game board to go back to the main ‘Play’ window.
 
-
-
 As you play, small green and blue dots will begin to litter the game board, indicating where you have played (see board illustration below). When a sequence is scored, the board squares in green (or blue) are highlighted.
 
 ![image-20240620110128572](media/image-20240620110128572.png)
@@ -68,7 +66,7 @@ As you play, small green and blue dots will begin to litter the game board, indi
 
 **Special setup instructions for third play mode (Me vs remote opponent)**
 
-To play with a remote opponent, the ‘git’ app needs to be installed on your computer. The first time you try to play with the third mode you will be prompted to install the ‘git’ component.
+To play with a remote opponent, the ‘git’ app needs to be installed on your computer. The first time you try to play the two-player game you will be prompted to install the ‘git’ component.
 
 ![](media/e442dac0af98024ddcda65364aeb4571.png)
 
