@@ -1,4 +1,5 @@
 cd C:\
+C:\SequenceGameStates\Git-2.45.1-64-bit.exe
 git clone https://Github.com/SeqGamer/SequenceGameStates
 rem @echo off
 rem echo Set oWS = WScript.CreateObject("WScript.Shell") > C:\temp\CreateShortcut.vbs
