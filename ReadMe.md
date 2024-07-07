@@ -8,11 +8,23 @@ If you are unsure about the rules of Sequence, they can be reviewed at [**https:
 
 Sequence is implemented as a Windows app that can be installed from [**https://github.com/SeqGamer/SequenceGameStates**](https://github.com/SeqGamer/SequenceGameStates).
 
-From this page click on ‘Code’ and then ‘Download ZIP’. When the Zip file is downloaded, double click on it to unzip it, copy and save the **SequenceGameStates-main** folder to a convenient location on your computer. **Rename the folder to SequenceGameStates**. You should then be able to play the game by double-clicking on the SequencePlay.exe file in that folder.
+From this page click on the file ‘SequenceSetup.zip’ and download it by clicking on the 'Download' icon. 
 
-If a prompt appears saying ‘Windows protected your PC’, click on ‘More info’, then click on ‘Run anyway’, and the Sequence app should start.
+![](C:\Users\agb46\AppData\Roaming\marktext\images\2024-07-07-09-19-14-image.png)
+
+Be patient while the file is downloaded. It will appear in the 'Downloads' folder on your computer.
+
+When the Zip file is downloaded, double click on it to unzip it, copy and save the **SequenceSetup** folder to a convenient location on your computer, like C:\Temp\. Double-click on the SequenceSetup folder, then double-click on SequenceSetup.exe to run the setup. If a prompt appears saying ‘Windows protected your PC’, click on ‘More info’, then click on ‘Run anyway’, and the Sequence app should start.
+
+This opens a DOS window as the setup continues. Once it completes, it will either report an error or prompt you to press 'Enter'.
+
+The first time the setup is run it will install the 'git' component which is required only to play the two player game (play mode 'Me versus remote opponent'). Installing this component requires you to press 'Enter' about 15 times before it installs itself in the 'C:\Program Files\git' folder. 
+
+If the setup is successful, you can open the C:\SequenceGameStates folder and drag the SequencePlay.exe file onto the TaskBar to create a shortcut link to the Sequence app. Click on the link to start the app.
 
 If an app update is available on the GitHub web site, repeat the above installation method.
+
+After the 'git' component is installed, before being able to run in the two player mode, the computer needs to be rebooted, so follow the instructions in the prompt and then start the Sequence app when the computer is restarted.
 
 # Play Modes
 
@@ -62,18 +74,6 @@ As you play, small green and blue dots will begin to litter the game board, indi
 
 
 
-**TWO-PLAYER Game**
 
-**Special setup instructions for third play mode (Me vs remote opponent)**
-
-To play with a remote opponent, the ‘git’ app needs to be installed on your computer. The first time you try to play the two-player game you will be prompted to install the ‘git’ component.
-
-![](media/e442dac0af98024ddcda65364aeb4571.png)
-
-Click on ‘OK’ to proceed with the installation. The installation process starts up and guides you through many choices of implementation options. Simply access the default in each case until the installation is complete. After completion a prompt like the one below appears:
-
-![A screenshot of a computer Description automatically generated](media/c9fbf329c703efa285c1d3bd7a1919b0.png)
-
-Before being able to run in the third mode, the computer needs to be rebooted, so follow the instructions in the prompt and then start the Sequence app again when the computer is restarted.
 
 Please send any feedback to [agb465@mail.usask.ca](mailto:agb465@mail.usask.ca).
