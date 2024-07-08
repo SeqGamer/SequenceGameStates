@@ -10,15 +10,7 @@ Sequence is implemented as a Windows app that can be installed from [**https://g
 
 From this page click on the file ‘SequenceSetup.zip’ and download it by clicking on the 'Download' icon. 
 
-
-
-
-
 ![2024-07-07-09-19-14-image.png](C:\SequenceGameStates\media\2024-07-07-09-19-14-image.png)
-
-
-
-
 
 
 
