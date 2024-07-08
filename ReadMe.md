@@ -12,7 +12,6 @@ From this page click on the file ‘SequenceSetup.zip’ and download it by clic
 
 ![](media/2024-07-07-09-19-14-image.png)
 
-
 Be patient while the file is downloaded. It will appear in the 'Downloads' folder on your computer.
 
 When the Zip file is downloaded, double click on it to unzip it, copy and save the **SequenceSetup** folder to a convenient location on your computer, like C:\Temp\. Double-click on the SequenceSetup folder, then double-click on SequenceSetup.exe to run the setup. If a prompt appears saying ‘Windows protected your PC’, click on ‘More info’, then click on ‘Run anyway’, and the Sequence app should start.
