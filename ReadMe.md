@@ -72,8 +72,4 @@ As you play, small green and blue dots will begin to litter the game board, indi
 
 ![image-20240620110128572](media/image-20240620110128572.png)
 
-
-
-
-
 Please send any feedback to [agb465@mail.usask.ca](mailto:agb465@mail.usask.ca).
